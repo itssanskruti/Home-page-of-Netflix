@@ -11,6 +11,7 @@ create public folder and in this add the .html file and put all images in assets
 open the index.html file in the web browser to view the Netflix home page clone.
 
 # Screenshots
+![Uploading N-1.png…](C:\Users\sansk\OneDrive\Pictures\screen-shots)
 
 ![Uploading N-2.png…]()
 
