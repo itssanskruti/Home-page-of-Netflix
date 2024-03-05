@@ -11,6 +11,8 @@ create public folder and in this add the .html file and put all images in assets
 open the index.html file in the web browser to view the Netflix home page clone.
 
 # Screenshots
+![N-1](https://github.com/itssanskruti/Home-page-of-Netflix/assets/160560874/7ca0c22b-0b31-4b6f-af95-03cb93ea1061)
+
 
 
 # Credits
