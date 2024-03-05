@@ -1,0 +1,214 @@
+header div{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-left: 0;
+    margin-right: 10px;
+    padding: 7px;
+}
+header{
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+.netimg{
+    margin-left: 15px;
+}
+header a{
+ color: white;
+ display: inline;
+ text-decoration: none;
+ margin-right: 20px;
+}
+.search{
+    position: fixed;
+    right: 280px;
+    font-size: 18px;
+}
+.search-container{
+    display: none;
+}
+.search-toggle:checked ~ .search-container{
+    display: block;
+}
+.rchil{
+    position: fixed;
+    right: 190px;
+    font-size: 18px;
+}
+.rbell{
+    position: fixed;
+    right: 150px;
+    font-size: 18px;
+}
+.rimage{
+    position: fixed;
+    right: 30px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.92);
+    overflow-x: hidden;
+}
+.searchbtn button{
+    display: none;
+    position: absolute;
+    right: 10px;
+    bottom: -100px;
+}
+section{
+    height: fit-content;
+}
+section div{
+    margin-bottom: 90px;
+}
+.container{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.container .b{
+    position: absolute;
+    top: 500px;
+    left: 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 30px;
+    border-radius: 6px;
+    text-align: top;
+}
+.container .i{
+    position: absolute;
+    top: 500px;
+    left: 210px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 27px;
+    border-radius: 6px;
+    text-align: top;
+}
+.Nseries{
+    position: absolute;
+    top: 140px;
+    left: 70px;
+
+}
+h1{
+    position: absolute;
+    top: 110px;
+    left: 70px;
+    font-size: 80px;
+    width: 370px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+p{
+    position: absolute;
+    top: 350px;
+    left: 70px;
+    width: 400px;
+    font-size: 20px;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.img1{
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 30px;
+    margin-left: 30px;
+}
+.img2{
+    margin-left: 50px;
+    margin-bottom: -30px;
+}
+.z{
+    transition: transform 450ms;
+}
+.imgs{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.z:hover{
+    transform: scale(1.08);
+}
+.imgs::-webkit-scrollbar {
+    display: none;
+}
+.zoom{
+    max-height: 250px;
+}
+.zoom:hover{
+    transform: scale(1.09);
+}
+.imgs img{
+    margin-right: 18px;
+}
+.pop{
+    position: absolute;
+    top: -50px;
+    left: 0; 
+}
+footer{
+    width: 100%;
+}
+footer ul{
+    display: flex;
+}
+footer li{
+    list-style: none;
+    color: white;
+    margin-right: 25px;
+    font-size: 23px;
+}
+.sicons{
+    margin-left: 220px;
+    margin-right: 250px; 
+}
+.copyright{
+    margin-left: 250px;
+    margin-right: 250px;
+    color: gray;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.links{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../public/assets/bullet.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 10px;    
+   background-color: black;
+   color: white;
+}
+.box{
+    position: relative;
+    display: inline-block;
+}
+.button{
+    height: 30px;
+    width: fit-content;
+    margin-bottom: 15px;
+    background-color: transparent;
+    color: gray;
+    border-color: gray;
+    margin-left: 250px;
+    margin-right: 250px;
+}
